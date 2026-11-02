@@ -1,0 +1,21 @@
+# Cisco's installer (proprietary, must never be committed)
+*.deb
+*.AppImage
+
+# makepkg build output
+*.pkg.tar.zst
+*.pkg.tar.xz
+src/
+pkg/
+packettracer/
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Editor and OS files
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
